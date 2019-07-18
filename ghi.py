@@ -31,6 +31,8 @@ ghi = LINE("gmail","pass")
 ghi.log("Auth Token : " + str(ghi.authToken))
 ghi.log("Timeline Token : " + str(ghi.tl.channelAccessToken))
 
+print(*SUCCES LOGIN TO NAUGHTY FINGER*)
+
 waitOpen = codecs.open("Max2.json","r","utf-8")
 settingsOpen = codecs.open("max.json","r","utf-8")
 imagesOpen = codecs.open("image.json","r","utf-8")
